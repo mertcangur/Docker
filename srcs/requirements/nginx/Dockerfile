@@ -9,7 +9,7 @@ COPY ./tools/nginx_start.sh /var/www
 
 RUN chmod +x /var/www/nginx_start.sh
 
-["var/www/nginx_start.sh"]
+ENTRYPOINT ["var/www/nginx_start.sh"]
 
 CMD ["nginx", "-g", "daemon off;"]
 
