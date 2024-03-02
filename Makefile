@@ -18,4 +18,4 @@ clean:
 	rm -rf $(HOME)/mgur/data/wordpress
 	rm -rf $(HOME)/mgur/data/mariadb
 
-.PHONY: all re down clean 
+.PHONY: all re down clean
